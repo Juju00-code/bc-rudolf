@@ -1,0 +1,44 @@
+#Theory Question 1 :
+
+Git is a distributed version control system used to track the version of files.
+
+1. Version Control is a major importance of git, the ability to keep tabs on the codebase history and revert to certain timelines is of immense benefit.
+
+2. Ability to manage changes during collaboration between developers on a project adds to the importance of git.
+
+3. Git distributed attribute allow backup and redundancy.
+
+4. Git enforces  good code practices  amongst  developers through code reviews.
+
+
+# Theory Question 2 :
+
+Step 1: Signup to github if not an existing user.
+
+Step 2: Whilst logged in, on  homepage of github per the current version, at the top left side click on a green button "new".
+
+Step 3: Setup repository configuration according to required and optional as well as the level of visibility of the repository(private or public) then on 
+             buttom right of the page click on a green button "Create repository".
+
+Step 4: End result of Step 3 brings up a page containing steps to enable the newbie push their project to github.
+
+Step 5 : On their local device it will be appropriate especially if newbie is a windows user, to have git bash installed this allows ease
+              of use of commands to push code to github.
+
+Step: 6: Now in the terminal change directory to project dirctory on your local device 
+
+Step 7: Git initialise the project with command "git init" 
+
+Step 8: add your intended directories and files to the staging area with "git add <intended directories and files to push>".
+
+Step 9: git commit your project with a brief but concise description in quotes to the purpose of this particular commit with command " git commit -m " <brief and concise purpose of commit >"   "
+
+Step 10: Newbie can decide to rename main branch to main which usually defaults to master with command "git branch -M main".
+
+Step 11: On github your repository will generate an https link to your project repository append this link to the end of this command "git remote add origin https://github.com/<username>/<repositoy name>.git" 
+                to add remote repository to local git repository.
+
+Step 12: This final step will finally push your main branch to the remote repository stated in Step 11.
+
+
+
